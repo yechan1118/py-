@@ -1,0 +1,19 @@
+p_line = "----------------------------------" ##라인 변수##
+p_int = "변수사용 자기 소개 출력 프로그램"## 출력프로그램 소개 변수##
+p_name = "인하공전 컴시공과 1학년 A반 이예찬 입니다."## 이름소개 변수##
+p_pro = "곧 전문가가 되어 있을 것입니다."## 전문가 소개글 변수##
+p_space = ""## 공백 변수##
+
+print(p_line)
+print(p_int)
+print(p_line)
+print(p_space)
+print("안녕하세요")
+print(p_name)
+print(p_space)
+print("오늘 처음으로 파이선을 배우는데")
+print("초보자답지 않게 재미있습니다.")
+print(p_space)
+print("차근차근 따라가면")
+print(p_pro)
+print(p_space)
