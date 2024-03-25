@@ -1,0 +1,39 @@
+##----------------------##
+##연산자별               ##
+##인컴시과 A반 이예찬     ##
+##2024.3.25             ##
+##----------------------##
+
+##산술 연산자##
+p_a=7
+p_b=3
+print("p_a+p_b의 결과 값 :", p_a+p_b)
+print("p_a-p_b의 결과 값 :", p_a-p_b)
+print("p_a*p_b의 결과 값 :", p_a*p_b)
+print("p_a/p_b의 결과 값 :", p_a/p_b)
+print("p_a**p_b의 결과 값 :", p_a**p_b)
+
+##대입 연산자##
+p_c = 10
+p_c -= 5; print("p_c -= 5의 결과 값 :", p_c)
+p_c *= 5; print("p_c *= 5의 결과 값 :", p_c)
+p_c /= 5; print("p_c /= 5의 결과 값 :", p_c)
+p_c %= 5; print("p_c %= 5의 결과 값 :", p_c)
+p_c **= 5; print("p_c **= 5의 결과 값 :", p_c)
+
+##관계 연산자##
+p_d=10; p_e=20
+print("p_d > p_e의 결과 값 :", p_d > p_e)
+print("p_d < p_e의 결과 값 :", p_d < p_e)
+print("p_d >= p_e의 결과 값 :", p_d >= p_e)
+print("p_d <= p_e의 결과 값 :", p_d <= p_e)
+
+##논리 연산자##
+p_f = 10
+print("not(p_f < 10)의 결과 값 :",not(p_f < 10))
+
+##비트 연산자##
+p_g = 3; p_h = 2
+print("(g | h)의 결과 값 : ", (p_g|p_h))
+print("(g ^ h)의 결과 값 : ", (p_g^p_h))
+print("( ~ h)의 결과 값 : ", (~p_h))
