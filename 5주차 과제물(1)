@@ -81,3 +81,25 @@ print("\n")## 줄바꿈 ##
 print("## join 함수 ##")
 l = " /"
 print(l.join('asdf'))
+print("\n")## 줄바꿈 ##
+
+print("## replace 함수 ##")
+n = "Speed zone"
+print(n.replace("Speed", "Power"))
+print("\n")## 줄바꿈 ##
+
+print("## split 함수 ##")
+m = "One Two Three"
+print(m.split())
+o = "Spring:summer:fall:winter"
+print(o.split(':'))
+print("\n")## 줄바꿈 ##
+
+print("## split 함수 ##")
+p = (100 < 100)
+print(p)
+q = (300 == 300)
+print(q)
+r = True
+print(type(r))
+print("\n")## 줄바꿈 ##
