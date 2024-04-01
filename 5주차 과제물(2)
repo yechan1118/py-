@@ -1,0 +1,45 @@
+##------------------------##
+##제목:파이선 4장 과제물    ##
+##작성자:인컴시과A반 이예찬 ##
+##작성일자:2024.04.01      ##
+##------------------------##
+
+print("-" *50)
+
+print("이예찬_컴퓨터스템공학과_202445032_4장 과제물")
+
+print("="*50)
+
+a = 9
+b = 2
+print("a//b의  결과값:",a//b)
+print("-a//b의 결과값:",-a//b)
+
+print("My name's Lee Ye Chan")
+c = "My name is Lee Ye Chan"
+print(c.count('s'))
+
+d = "Bythom Programing"
+print(d[:0] + 'P' + d[1:]  , d[:5] + 'n' + d[6:])
+
+e = "ihtc"
+print(e.upper())
+
+f = "i like IHTC"
+print(f.replace("like" , "love"))
+
+g = "20250401Monday"
+year = g[:4]
+print(year)
+month = g[4:6]
+print(month)
+day = g[6:8]
+print(day)
+week = g[8:]
+print(week)
+print(year+'년 '+month+'월 '+day+'일 '+week)
+
+
+
+
+
