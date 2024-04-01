@@ -6,7 +6,7 @@
 
 print("## 문자열 연산자 ##")
 a = "Good "
-b = "Programing"
+b = "Programming"
 print(a+b)
 print(a*3)
 print("=" * 50)
