@@ -1,0 +1,83 @@
+##------------------------##
+##제목:기본형데이터타입     ##
+##작성자:인컴시과A반 이예찬 ##
+##작성일자:2024.04.01      ##
+##------------------------##
+
+print("## 문자열 연산자 ##")
+a = "Good "
+b = "Programing"
+print(a+b)
+print(a*3)
+print("=" * 50)
+print("\n")## 줄바꿈 ##
+
+print("## 문자열 인덱싱 ##")
+c = "Spacezone"
+print(c[3])
+print(c[-2])
+print("\n")## 줄바꿈 ##
+
+print("## 문자열 슬라이싱 ##")
+d = "Python Programing"
+print(d[:2]) ##d[0:2]와 같음##
+print(d[3:]) ##d[3:18]과 같음## 
+print(d[:5]) ##d[0:5]와 같음##
+print(d[:]) ##d[0:18]과 같음##
+print("\n")## 줄바꿈 ##
+
+print("## 문자열 나누기 ##")
+e = "20330815Monday"
+year = e[:4]
+print(year)
+month = e[4:6]
+print(month)
+day = e[6:8]
+print(day)
+week = e[8:]
+print(week)
+print(year+'년 '+month+'월 '+day+'일 '+week)
+print("\n")## 줄바꿈 ##
+
+print("## 문자열 철자 고치기 ##")
+f = "Sprce"
+print(f[:2])
+print(f[3:])
+print(f[:2] + 'a' + f[3:])
+print("\n")## 줄바꿈 ##
+
+print("## count함수 ##")
+g = "Spacezone"
+print(g.count('e'))
+print("\n")## 줄바꿈 ##
+
+print("## find함수 ##")
+h = "I can do it"
+print(h.find('a'))
+print(h.find('do'))
+print(h.find('s'))
+print("\n")## 줄바꿈 ##
+
+print("## index함수 ##")
+i = "Have a good time"
+print(i.index('a'))
+print(i.index('me'))
+##print(i.index('c')) -> 오류확인##
+print("\n")## 줄바꿈 ##
+
+print("## 문자열 공백 지우기 ##") 
+j = " power "
+print(j.strip())
+print(j.lstrip())
+print(j.rstrip())
+print("\n")## 줄바꿈 ##
+
+print("## 알파벳 대/소문자 변환 ##")
+k = "Speed Zone"
+print(k.upper())
+print(k.lower())
+print("\n")## 줄바꿈 ##
+
+print("## join 함수 ##")
+l = " /"
+print(l.join('asdf'))
