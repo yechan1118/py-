@@ -1,55 +1,81 @@
-print("단일 리스트 정의")
-a = ['One', 2, 3.0]
-print(a[0])
-print(a[1] + a[2])
-print(a[-1])
+##----------------------------------##
+##제목:집합형 데이터 타입 예제 소스    ##
+##작성자:인컴시과A반 이예찬           ##
+##작성일자:2024.04.08                ##
+##----------------------------------##
 
-b = [1,2,3, ['One', 'Two', 'Three']]
-print(b[0])
-print(b[-1])
-print(b[-1] [0])
-print(b[-1] [-1])
+print("## 예제 5-28 ##")
+a = {101: 'smart'}## Step 01 ##
+a [201] = 'graphic'
+print(a)
+a['id'] = 'cskisa'## Step 02 ##
+print(a)
+a['One'] = [101, 102, 103]## Step 03 ##
+print(a)
+print("\n")## 줄바꿈 ##
 
-c = [101, 102, ['a', 'b', ['Spring', 'Summer']]]
-print(c[2] [2] [0])
-print(c[-1] [-1] [-1])
-print(c[-1] [0] [0])
+print("## 예제 5-29 ##")
+print(a)## Step 01 ##
+del a['One']## Step 02 ##
+print(a)
+del a[201]## Step 03 ##
+print(a)
+print("\n")## 줄바꿈 ##
 
-d = [101, 102, 103, 104, 105]
-print(d[0:3])
+print("## 예제 5-30 ##")
+print(a)## Step 01 ##
+print(a['id'])## Step 02 ##
+print(a[101])## Step 03 ##
+print("\n")## 줄바꿈 ##
 
-e = [101, 102, ['One', 'Two', 'Three'], 103, 104, 105]
-print(e[1:4])
-print(e[2] [:2])
+print("## 예제 5-31 ##")
+b = {101:'space', 101:'zone'}## Step 01 ##
+print(b[101])
+print(b)## Step 02 ##
+print("\n")## 줄바꿈 ##
 
-f = [101, 102, 103]
-g = [201, 202, 203]
-print(f + g)
+print("## 예제 5-32 ##")
+##c = {[1,2]:'speed'} Step 01 ->오류발생 ##
+c = {(1,2):'speed'}## Step 02 ##
+print(c[(1,2)])
+print("\n")## 줄바꿈 ##
 
-h = ['One', 'Two']
-i = ['Three']
-print(h + i)
+print("## 예제 5-33 ##")
+d = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+print(d.keys())
+print(list(d.keys()))## Step 02 ##
+print("\n")## 줄바꿈 ##
 
-j = ['One', 'Two', 'Three']
-print(j * 3)
+print("## 예제 5-34 ##")
+e = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+print(e.values())
+print(list(e.values()))## Step 02 ##
+print("\n")## 줄바꿈 ##
 
-k = [11, 12, 13]
-##print(k[2] + "회") -> 오류 발생##
-print(str(k[2]) + "회")
+print("## 예제 5-35 ##")
+f = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+print(f.items())
+print(list(e.items()))## Step 02 ##
+print("\n")## 줄바꿈 ##
 
-l = [101, 102, 103]
-l[2]= 201
-print(l)
+print("## 예제 5-36 ##")
+g = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+print(g.get('id'))
+print(g.get('pw'))## Step 02 ##
+g = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 03 ##
+g.get('name')
+print(g.get('name', 'no key'))
+g = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 04 ##
+print(g.get('name', 'non-name'))## -> Step3오류수정 ##
+print("\n")## 줄바꿈 ##
 
-n = [201, 202, 203]
-n[1:2] = ['One', 'Two', 'Three'] ## 두 번쨰 요소의 값을 새로운 요소값으로 대입##
-print(n)
-print(n[1])
-n[1] = ['하나', '둘', '셋']##n의 두번째 요소 값에 이중 리스트로 수정##
-print(n)
+print("## 예제 5-37 ##")
+h = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+print('name' in h)
+print('pw' in h)## Step 02 ##
+print("\n")## 줄바꿈 ##
 
-## 기존 리스트요소 삭제하기##
-print(n)
-print(n[1:3])
-n[1:3] = []
-print(n)
+print("## 예제 5-38 ##")
+i = {'id':'lychan', 'pw':445032, 'email':'c8131074@daum.net'}## Step 01 ##
+i.clear()
+print(i)
