@@ -1,0 +1,81 @@
+##------------------------##
+##제목:파이선 5장 과제물    ##
+##작성자:인컴시과A반 이예찬 ##
+##작성일자:2024.04.08      ##
+##------------------------##
+
+print("## 예제 5-28 ##")
+a = {101: 'smart'}## Step 01 ##
+a [201] = 'graphic'
+print(a)
+a['id'] = 'cskisa'## Step 02 ##
+print(a)
+a['One'] = [101, 102, 103]## Step 03 ##
+print(a)
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-29 ##")
+print(a)## Step 01 ##
+del a['One']## Step 02 ##
+print(a)
+del a[201]## Step 03 ##
+print(a)
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-30 ##")
+print(a)## Step 01 ##
+print(a['id'])## Step 02 ##
+print(a[101])## Step 03 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-31 ##")
+b = {101:'space', 101:'zone'}## Step 01 ##
+print(b[101])
+print(b)## Step 02 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-32 ##")
+##c = {[1,2]:'speed'} Step 01 ->오류발생 ##
+c = {(1,2):'speed'}## Step 02 ##
+print(c[(1,2)])
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-33 ##")
+d = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+print(d.keys())
+print(list(d.keys()))## Step 02 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-34 ##")
+e = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+print(e.values())
+print(list(e.values()))## Step 02 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-35 ##")
+f = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+print(f.items())
+print(list(e.items()))## Step 02 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-36 ##")
+g = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+print(g.get('id'))
+print(g.get('pw'))## Step 02 ##
+g = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 03 ##
+g.get('name')
+print(g.get('name', 'no key'))
+g = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 04 ##
+print(g.get('name', 'non-name'))## -> Step3오류수정 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-37 ##")
+h = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+print('name' in h)
+print('pw' in h)## Step 02 ##
+print("\n")## 줄바꿈 ##
+
+print("## 예제 5-38 ##")
+i = {'id':'cskisa', 'pw':123456, 'email':'cskisa@spacezone.kr'}## Step 01 ##
+i.clear()
+print(i)
