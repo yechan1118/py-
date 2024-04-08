@@ -8,7 +8,7 @@ print("## 예제 5-28 ##")
 a = {101: 'smart'}## Step 01 ##
 a [201] = 'graphic'
 print(a)
-a['id'] = 'cskisa'## Step 02 ##
+a['id'] = 'lychan'## Step 02 ##
 print(a)
 a['One'] = [101, 102, 103]## Step 03 ##
 print(a)
