@@ -5,7 +5,7 @@
 ##-----------------------------------##
 
 print("=" *53)
-print("■ 202445032 컴시과 1확년 A반 이예찬 11주차 과제")
+print("■ 202445032  컴시과  1확년  A반  이예찬  11주차 과제")
 print("■ 값을 입력받아 파일에 쓰는 프로그램  ")
 print("-" *53)
 print(" >> 생성할 파일명          : pathfile.txt")
@@ -19,7 +19,7 @@ jull = eval(input("몇줄 데이터를 입력 할까요? :")) ## 몇줄을 입�
 print("") ## 줄바꿈 ##
 
 for cnt in range(1 , jull+1) : ## for문을 이용해 줄을 출력 ##
-    hbun = eval(input("학번을 입력하세요          :")) ##학번 입력 ##
+    hbun = input("학번을 입력하세요          :") ##학번 입력 ##
     irum = input("이름을 입력하세요          :") ## 이름 입력 ##
     dept = input("학과를 입력하세요          :") ## 학과 입력 ##
     print("") ## 줄바꿈 ##
@@ -28,7 +28,7 @@ for cnt in range(1 , jull+1) : ## for문을 이용해 줄을 출력 ##
 
 fileName.close() ## 파일 닫기 ##
 
-print("\n <<<<< 파일 쓰기 완료 >>>>> \n")
+print("\n             <<<<< 파일 쓰기 완료 >>>>> \n")
 
 print("-" *53)
 print(" >> D:/PSC_A/pathfile.txt 파일의 내용을 확인하세요...")
